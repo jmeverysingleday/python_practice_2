@@ -33,6 +33,6 @@ image_type = imghdr.what("image", image_file)
 message.add_attachment(image_file, maintype = 'image', subtype = image_type)
 
 smtp = smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT)
-smtp.login(sender_email, "SKKYVR6RNT4G")
+smtp.login(sender_email, "#######")
 sendEmail(receiver_email)
 smtp.quit()
